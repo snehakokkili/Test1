@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7</title>
+    <style>
+        /* Style for the navigation bar */
+        .navbar {
+            width: 200px; /* Set the width of the navigation bar */
+            background-color:lightblue;
+            border-color: black;
+            padding: 20px 0;
+            position: fixed; /* Fixed position to keep it on the screen */
+        }
+
+        /* Style for the navigation links */
+        .navbar a {
+            display: block;
+            color: white;
+    
+            text-align: center;
+            padding: 10px 0;
+            text-decoration: none;
+        }
+        .b{
+            font-size: larger;
+            color:blue;
+            
+        }
+        a.v{
+            color: blue;
+        }
+/* Style for the navigation links on hover */
+        .navbar a:hover {
+            background-color: #555;
+        }
+        a.p{
+            background-color: #FF9900;
+            font-size: larger;
+        }
+        ul {
+             list-style-type: none;
+             margin: 0;
+             padding: 0;
+             overflow: hidden;
+             background-color: #333;
+            }
+
+        li {
+            float: left;
+            border-right:1px solid #bbb;
+           }
+
+        li:last-child {
+            border-right: none;
+            }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+             li a:hover:not(.active) {
+            background-color: #111;
+           }
+
+          .active {
+              background-color: #04AA6D;
+                 }
+    </style>
+
+
+
+</head>
+<body>
+    <body>
+        <div class="navbar" >
+            <a href="#home" class="p" >Home</a>
+            <div class="b">
+            <a href="#java" class="v">Java</a>
+            <a href="#css" class="v">CSS</a>
+            <a href="#html" class="v">HTML</a>
+            <a href="#bootstrap" class="v">Bootstrap</a>
+        </div>
+        
+        </div>
+    
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">Java</a></li>
+            <li><a href="#contact">HTML</a></li>
+            <li style="float:right"><a href="#about">CSS</a></li>
+          </ul>
+</body>
+</html>
